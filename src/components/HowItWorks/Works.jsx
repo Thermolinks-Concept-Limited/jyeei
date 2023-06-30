@@ -14,7 +14,7 @@ class Works extends Component {
   render() {
     const { name } = this.props;
     return (
-      <div className="services">
+      <div className="works">
         {/* <img
           className="vector-services"
           src={vector}

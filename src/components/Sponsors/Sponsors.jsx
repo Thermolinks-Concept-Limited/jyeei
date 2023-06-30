@@ -13,7 +13,7 @@ const Sponsors = function () {
   return (
     <div className="sponsors">
    
-      <h3 className="works-header header"> our <span className="span-greenb">Sponsors</span></h3>
+      <h3 className="sponsors-header header"> our <span className="span-greenb">Sponsors</span></h3>
 <div>
 
   <Row>

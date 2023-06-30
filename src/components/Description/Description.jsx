@@ -22,7 +22,7 @@ class Description extends Component {
      
         <h3 className="service-header">What the initiative for the <br /> jigawa people focuses</h3>
        
-        <Row xs={1} md={2} lg={3} className="g-4">
+        <Row className="g-4">
           <Col>
             <Card className="card">
               <img
