@@ -18,16 +18,16 @@ const Sponsors = function () {
 
   <Row>
 <Col>
-<img src={Img1} alt="" />
+<img src={Img1} alt=""  className="Col"/>
 </Col>
 <Col>
-<img src={Img2} alt="" />
+<img src={Img2} alt="" className="Col" />
 </Col>
 <Col>
-<img src={Img3} alt="" />
+<img src={Img3} alt="" className="Col" />
 </Col>
 <Col>
-<img src={Img4} alt="" />
+<img src={Img4} alt="" className="Col" />
 </Col>
 
   </Row>
