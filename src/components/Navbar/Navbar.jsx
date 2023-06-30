@@ -5,7 +5,6 @@ import logo from "../assets/Img/logo.png";
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
-import { Outlet, Link } from "react-router-dom";
 
 
 function Header() {
@@ -35,9 +34,8 @@ function Header() {
            
           </Nav>
     <Nav className="me-auto" >
-            <Nav.Link id="nav-item" to="/about"> Home</Nav.Link>
-
-            <NavDropdown title="About Us" id="collasible-nav-dropdown"  id="nav-item">
+            <Nav.Link href="#features" id="nav-item">Home</Nav.Link>
+            <NavDropdown title="About Us" id="collasible-nav-dropdown" id="nav-item" >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -53,14 +51,14 @@ function Header() {
           </Nav>
 
 	     <Nav>
-	<NavDropdown title="en" id="navbarScrollingDropdown"  id="nav-item">
+	<NavDropdown title="en" id="navbarScrollingDropdown" id="nav-item" >
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
              
             </NavDropdown>
 
 
           <Form className="d-flex">
-           <Button variant="primary" size="xxl" className="button" >Primary</Button>{' '}
+           <Button variant="primary" size="xxl" className="button" >Portal</Button>{' '}
           </Form>
 	</Nav> 
         </Navbar.Collapse>
