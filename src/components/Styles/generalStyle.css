@@ -780,24 +780,73 @@ margin-bottom: 30px;
   height: 277px;
 }
 .g-4  {
-  background-color: blue;
-  margin-left: 300px;
+ 
+  margin-left: 0;
 }
 .services {
-  background-color: rgb(237, 0, 0);
-  height: 699px;
-  margin-bottom: 1400px;
+  background-color: rgb(255, 255, 255);
+  height: 2199px;
+
+}
+.service-header {
+ display: flex;
+  width: 300px;
+  margin: 40px;
 }
 .services-item {
 width: 0;
-height: 0;
-background: var(--foundation-primary-b-50, #EAF3FB);
+height: 100px;
+background: var(--foundation-primary-b-50, #ffffff);
 margin-left: 0;
 padding-bottom: 0px;
 border-radius: 30px;
-margin-bottom: 900px;
+
+}
+ .Counts_Header {
+  width: 100%;
+height: 428px;
+flex-shrink: 0;
+background: var(--foundation-neutrals-n-600, #354764);
 }
 
+.Counts_Header h2 {
+  width: 400px;
+  text-align: center;
+  margin-top: 30px;
+flex-shrink: 0;
+color: var(--foundation-neutrals-n-0, #fbfbfb);
+font-size: 28px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 700;
+
+}
+.Counts_Header h3 {
+margin-top: 0;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--foundation-neutrals-n-0, #ffffff);
+font-size: 50px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 700;
+
+}
+.Counts_Header p {
+  color: var(--foundation-neutrals-n-0, #ffffff);
+text-align: center;
+font-size: 13px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+
+.sponsors .Col {
+width: 164px;
+height: 59px;
+flex-shrink: 0;
+}
   .intro-header {
     font-size: 1.8rem;
     width: 100%;

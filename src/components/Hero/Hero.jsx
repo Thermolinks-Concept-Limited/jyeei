@@ -17,7 +17,7 @@ const Hero = function () {
       <Row className="header-body">
         <Col className="header-text" md={0}>
 
-          <h1 className="hero-text">Jigawa Youth <span className="span-blueb">Empowerment</span> and <span className="span-greenb">Employment</span> Initiative</h1>
+          <h1 className="">Jigawa Youth <span className="span-blueb">Empowerment</span> and <span className="span-greenb">Employment</span> Initiative</h1>
           <p className="intro-text">
         Empowering youth with employable skills equips them with the necessary tools and knowledge to navigate the job market successfully.
           </p>
