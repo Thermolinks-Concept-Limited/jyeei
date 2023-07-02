@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 const Swipe = function () {
   return (
     <div className=" testimonials-item">
-     
         <div className="review_header">
             <h3>Reviews of <span className="span-yelowb"> beneficiaries</span> who have <br /> gotten placements from the JYEES</h3>
           </div>
@@ -40,8 +39,8 @@ const Swipe = function () {
                 class="profile-img"
               />
               <div class="profile-name">
-                <p class="name">Edward&nbsp;Newgate</p>
-                <p class="job">Frontier&nbsp;Circle</p>
+                <p class="name">Salhalu&nbsp;Junaid</p>
+                <p class="job">Salhalu </p>
               </div>
             </div>
            

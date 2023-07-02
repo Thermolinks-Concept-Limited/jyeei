@@ -36,14 +36,14 @@ function Header() {
     <Nav className="me-auto" >
             <Nav.Link href="#features" id="nav-item">Home</Nav.Link>
             <NavDropdown title="About Us" id="collasible-nav-dropdown" id="nav-item" >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Team</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              Sponsors
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                 How it works 
               </NavDropdown.Item>
             </NavDropdown>
 	  <Nav.Link href="#features"  id="nav-item">News</Nav.Link>
@@ -52,7 +52,11 @@ function Header() {
 
 	     <Nav>
 	<NavDropdown title="en" id="navbarScrollingDropdown" id="nav-item" >
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">English</NavDropdown.Item>
+                 <NavDropdown.Item href="#action3">Hausa</NavDropdown.Item>
+                    <NavDropdown.Item href="#action3">Yoruba</NavDropdown.Item>
+                       <NavDropdown.Item href="#action3">Igbo</NavDropdown.Item>
+                          <NavDropdown.Item href="#action3">French</NavDropdown.Item>
              
             </NavDropdown>
 

@@ -395,15 +395,6 @@ background: #3187D7;
   background-color: white;
   max-width: 100%;
 }
-.services-item {
-width: 1260px;
-height: 884px;
-background: var(--foundation-primary-b-50, #EAF3FB);
-margin-left: 500px;
-padding-top: 30px;
-border-radius: 30px;
-}
-
 
 .card {
 width: 353px;
@@ -557,16 +548,7 @@ line-height: 64px;
 /* Slider Section */
 
 .testimonials-item {
-
   background-color: #fff;
-}
-.testimonials {
-  width: auto;
-height: 478px;
-  margin: 2rem auto;
- border-radius: 16px;
-background: #440000;
-
 }
 .review_header h3 {
 padding: 100px;
@@ -581,9 +563,18 @@ font-style: normal;
 font-weight: 700;
 letter-spacing: 1.7px;
 }
-.review P {
-padding: 100px;
+.testimonials {
+height: 278px;
+flex-shrink: 0;
+  margin: 2rem auto;
+border-radius: 16px;
+background: #ffffff;
+box-shadow: 3px 3px 8px 0px rgba(245, 245, 245, 0.90), -3px -3px 6px 0px rgba(255, 255, 255, 0.90), 3px -3px 6px 0px rgba(245, 245, 245, 0.20), -3px 3px 6px 0px rgba(245, 245, 245, 0.20), -1px -1px 2px 0px rgba(245, 245, 245, 0.50) inset, 1px 1px 2px 0px rgba(255, 255, 255, 0.30) inset;
 
+}
+
+.review  p{
+margin: 10px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
@@ -603,7 +594,7 @@ letter-spacing: 0.1px;
   padding: 2rem 2.5rem;
 }
 .profile-container {
-  display: flex;
+display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
@@ -613,19 +604,26 @@ letter-spacing: 0.1px;
   width: 98%;
   padding: 2%;
   margin: 4% auto 2%;
-  color: #4a0606;
+  color: #fff;
   letter-spacing: 0.05rem;
 }
 .profile-name .name {
-  margin: 0 auto;
-  margin-bottom: 0.1rem;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1;
+ color: var(--foundation-neutrals-n-800, #15294B);
+font-size: 16px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.1px;
 }
 .profile-name .job {
-  font-size: 0.8rem;
-  font-weight: 400;
+color: var(--foundation-secondary-s-300, #88BE46);
+font-size: 14px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.1px;
 }
 .slider-line {
   border-bottom: 2px solid;
@@ -638,10 +636,12 @@ letter-spacing: 0.1px;
   padding: 0 5%;
 }
 .profile-img {
-width: 60px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 60px;
+width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 0;
+  border: 4px solid #fff;
 }
 .review {
   width: 98%;
@@ -847,6 +847,20 @@ width: 164px;
 height: 59px;
 flex-shrink: 0;
 }
+
+.review_header h3 {
+padding: 50px;
+flex-direction: column;
+justify-content: center;
+
+color: #354764;
+text-align: center;
+font-size: 24px;
+font-family: Uber Move;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.7px;
+}
   .intro-header {
     font-size: 1.8rem;
     width: 100%;
@@ -966,12 +980,19 @@ flex-shrink: 0;
 }
 
 
-
-
-
-
 /* Desktop Media Query */
-@media (min-width: 992px) {
+@media (min-width:801px) {
+
+  .services-item {
+width: 1260px;
+height: 884px;
+background: var(--foundation-primary-b-50, #EAF3FB);
+margin-left: 18%;
+padding-top: 30px;
+border-radius: 30px;
+}
+
+
   .header-text {
     padding: 8% 5% 8% 0;
   }
@@ -1028,16 +1049,12 @@ flex-shrink: 0;
     word-break: normal;
     color: #7d7987;
   }
-  .learn {
-    width: 15%;
-    margin: 5% auto;
-  }
-  
+
   /* Slider Page */
   .testimonials {
-    width: 55%;
+    width: 35%;
     border-radius: 2rem;
-    padding: 2.5rem 1rem 1rem;
+    padding: 1.5rem 1rem 1rem;
   }
   .slider {
     flex-flow: row nowrap;
