@@ -994,10 +994,10 @@ margin-top: 5px;
 @media (min-width:801px) {
 
   .services-item {
-width: 1660px;
+width: 1360px;
 height: 884px;
 background: var(--foundation-primary-b-50, #EAF3FB);
-margin-left: 1%;
+margin-left: 5%;
 padding-top: 30px;
 border-radius: 30px;
 }
