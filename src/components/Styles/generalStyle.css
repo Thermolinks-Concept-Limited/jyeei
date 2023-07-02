@@ -392,7 +392,7 @@ height: 212px;
 flex-shrink: 0;
   margin:2px auto;
   padding: 0;
-  width: 453px;
+  width: 373px;
 height: 212px;
 flex-shrink: 0;
 border-radius: 16px;
@@ -997,7 +997,7 @@ margin-top: 5px;
 width: 1660px;
 height: 884px;
 background: var(--foundation-primary-b-50, #EAF3FB);
-margin-left: 7%;
+margin-left: 4%;
 padding-top: 30px;
 border-radius: 30px;
 }
