@@ -388,7 +388,6 @@ background: #3187D7;
 }
 
 .card {
-
 height: 212px;
 flex-shrink: 0;
   margin:2px auto;
@@ -578,13 +577,13 @@ box-shadow: 3px 3px 8px 0px rgba(245, 245, 245, 0.90), -3px -3px 6px 0px rgba(25
 
 .review  h4{
   display: flex;
-width: 400px;
+width: 300px;
 margin-bottom: 3%;
 margin-top: 85%;
 padding-bottom: 1px;
 flex-shrink: 0;
 color: var(--foundation-neutrals-n-90, #8993A4);
-font-size: 17px;
+font-size: 14px;
 font-family: Uber Move;
 font-style: normal;
 font-weight: 500;
@@ -995,10 +994,10 @@ margin-top: 5px;
 @media (min-width:801px) {
 
   .services-item {
-width: 1860px;
+width: 1660px;
 height: 884px;
 background: var(--foundation-primary-b-50, #EAF3FB);
-margin-left: 0%;
+margin-left: 7%;
 padding-top: 30px;
 border-radius: 30px;
 }
