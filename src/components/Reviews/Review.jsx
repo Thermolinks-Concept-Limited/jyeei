@@ -26,10 +26,10 @@ const Swipe = function () {
       >
         <SwiperSlide>
             <div class="review">
-              <p>
+              <h4>
               “The scheme not only equipped me with the essential skills and knowledge through their comprehensive training program but also connected me with industry professionals who mentored and guided me along the way. The empowerment scheme has truly transformed my life, opening doors to a fulfilling career and giving me the chance to make a meaningful contribution to my field.”
-              </p>
-            </div>
+              </h4>
+           
    
           <div className="slider">
             <div class="profile-container">
@@ -43,8 +43,10 @@ const Swipe = function () {
                 <p class="job">Salhalu </p>
               </div>
             </div>
-           
+            </div>
+                 
           </div>
+    
         </SwiperSlide>
 
 

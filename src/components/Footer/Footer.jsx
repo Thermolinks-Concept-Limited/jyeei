@@ -1,5 +1,7 @@
 import textLogo from "../assets/Img/logo.png";
 // import element from "../images/element.png";
+import { Button, Form } from "react-bootstrap";
+
 const Footer = function () {
   return (
     <div className="footer">
@@ -49,13 +51,16 @@ const Footer = function () {
 
       <div className="col-footer help">
           <h2>Get Updates</h2>
-        <p>
-          <a href="#">Email Address</a>
-        </p>
-     <form action="">
-          <input type="text" />
-          <button className="btn btn-primary">Submit</button>
-     </form>
+       
+     <Form action="">
+        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+     </Form>
       </div>
       <p className="trademark">© Copyrights 2023   |   All right reserved</p>
     </div>
