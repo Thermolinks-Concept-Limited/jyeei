@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 
+
 function Header() {
   return (
     <Navbar expand="lg" >
@@ -37,7 +38,7 @@ function Header() {
             <NavDropdown title="About Us" id="collasible-nav-dropdown" id="nav-item" >
               <NavDropdown.Item href="#action/3.1">Team</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-              Sponsors
+              
               </NavDropdown.Item>
 
               <NavDropdown.Divider />
@@ -50,8 +51,7 @@ function Header() {
           </Nav>
 
 	     <Nav>
-    <NavDropdown title="en" id="navbarScrollingDropdown" id="nav-item" >
- 
+	<NavDropdown title="en" id="navbarScrollingDropdown" id="nav-item" >
               <NavDropdown.Item href="#action3">English</NavDropdown.Item>
                  <NavDropdown.Item href="#action3">Hausa</NavDropdown.Item>
                     <NavDropdown.Item href="#action3">Yoruba</NavDropdown.Item>

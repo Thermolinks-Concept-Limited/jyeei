@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Img from "../assets/Img/001.png";
 import "../Styles/generalStyle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { MdSlowMotionVideo } from 'react-icons/md';
+
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -31,7 +31,7 @@ const Hero = function () {
         Empowering youth with employable skills equips them with the necessary tools and knowledge to navigate the job market successfully.
           </p>
           <button id="primary-btn" className="btn btn-primary">Get Started</button>
-            <button id="second-btn" className="btn btn-primary"> <MdSlowMotionVideo /> See video</button>
+            <button id="second-btn" className="btn btn-primary">See video</button>
         </Col>
         
       <Col>
