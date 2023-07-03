@@ -751,8 +751,9 @@ margin-bottom: 30px;
 }
 .card {
   width: 300px;
-  margin: 30px;
+  margin: 20px;
   padding: 5px;
+  margin-left: 35px;
 }
 .services {
   background-color: rgb(255, 255, 255);
