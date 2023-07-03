@@ -241,19 +241,19 @@ margin-bottom: 20px;
 
 }
 #second-btn {
-  color: var(--foundation-secondary-s-500, #53742B);
-text-align: center;
-font-size: 18px;
-font-family: Roboto;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0.1px;
-  border-radius: 6px;
-border: 1px solid var(--foundation-neutrals-n-0, #FFF);
-background: var(--foundation-neutrals-n-0, #FFF);
-margin-bottom: 20px;
+    color: var(--foundation-secondary-s-500, #53742B);
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    border-radius: 6px;
+    border: 1px solid var(--foundation-neutrals-n-0, #FFF);
+    background: var(--foundation-neutrals-n-0, #FFF);
+    margin-bottom: 20px;
+    width: 10.0rem;
+    padding: 1px;
 }
-
 
 /* About styles */
 
@@ -281,54 +281,54 @@ margin-bottom: 20px;
     padding: 5%;
   }
   .lead-header {
-display: flex;
-width: 169px;
-height: 37px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-display: flex;
-width: 169px;
-height: 37px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-600, #354764);
-text-align: center;
-font-size: 24px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0.1px;
+    display: flex;
+    width: 169px;
+    height: 37px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    display: flex;
+    width: 169px;
+    height: 37px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--foundation-neutrals-n-600, #354764);
+    text-align: center;
+    font-size: 24px;
+    font-family: Uber Move;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
   }
 
   .lead h3 {
     display: flex;
-width: 315px;
-height: 154px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: #000;
-font-size: 44px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0.1px;
+    width: 315px;
+    height: 154px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 44px;
+    font-family: Uber Move;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.1px;
   }
   .lead-text {
-display: flex;
-width: 615px;
-height: 150px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-700, #243757);
-font-size: 16px;
-font-family: Uber Move;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0.1px;
+    display: flex;
+    width: 615px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--foundation-neutrals-n-700, #243757);
+    font-size: 16px;
+    font-family: Uber Move;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1px;
   }
   .lead-btn {
     margin: 2% 0;
@@ -337,29 +337,29 @@ letter-spacing: 0.1px;
     margin: 3% 0;
   }
   .lead-img img {
-width: 485px;
-height: 377px;
-flex-shrink: 0;
-  padding: 2% 4%;
-  margin: 2rem auto;
+    width: 485px;
+    height: 377px;
+    flex-shrink: 0;
+    padding: 2% 4%;
+    margin: 2rem auto;
 }
 .lead-btn {
-  margin: 1rem auto 3rem;
+    margin: 1rem auto 3rem;
 }
 
 #read-btn{
-  color: var(--foundation-neutral-n-0, #FFF);
-text-align: center;
-font-size: 14px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.1px;
-  border-radius: 6px;
-background: #3187D7;
+    color: var(--foundation-neutral-n-0, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-family: Uber Move;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    border-radius: 6px;
+    background: #3187D7;
 }
 .order1 {
-  order: 1;
+    order: 1;
 }
   .order1,
   .order2 {
@@ -376,15 +376,15 @@ background: #3187D7;
 }
 
 .card {
-height: 212px;
-flex-shrink: 0;
+  height: 212px;
+  flex-shrink: 0;
   margin:2px auto;
   padding: 0;
   width: 373px;
-height: 212px;
-flex-shrink: 0;
-border-radius: 16px;
-background: #ffffff;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
@@ -399,21 +399,21 @@ background: #ffffff;
 }
 .card-title {
  text-align: center;
-font-size: 42px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
+  font-size: 42px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1px;
 }
 .card-text {
- color: #000;
-font-size: 16px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 100;
-line-height: 20px;
-letter-spacing: 0.1px;
+  color: #000;
+  font-size: 16px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.1px;
 }
 .services-text {
   font-size: 0.9rem;
@@ -421,18 +421,18 @@ letter-spacing: 0.1px;
   color: #7d7987;
 }
 .service-header {
-margin-top: 30px;
-margin-bottom: 6p0px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-600, #354764);
-text-align: center;
-font-size: 36px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
+  margin-top: 30px;
+  margin-bottom: 6p0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--foundation-neutrals-n-600, #354764);
+  text-align: center;
+  font-size: 36px;
+  font-family: Uber Move;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1px;
 }
 
 
@@ -448,31 +448,30 @@ letter-spacing: 0.1px;
 
 .works-header {
   display: flex;
-
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-600, #354764);
-text-align: center;
-font-size: 46px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--foundation-neutrals-n-600, #354764);
+  text-align: center;
+  font-size: 46px;
+  font-family: Uber Move;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1px;
 }
 
 .works-text {
   display: flex;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-700, #572424);
-text-align: center;
-font-size: 16px;
-font-family: Uber Move;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0.1px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--foundation-neutrals-n-700, #572424);
+  text-align: center;
+  font-size: 16px;
+  font-family: Uber Move;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.1px;
 }
 /* Counts Styles */
 
@@ -481,44 +480,43 @@ letter-spacing: 0.1px;
 }
 .Counts_Header {
   width: 110%;
-height: 228px;
-flex-shrink: 0;
-background: var(--foundation-neutrals-n-600, #354764);
+  height: 228px;
+  flex-shrink: 0;
+  background: var(--foundation-neutrals-n-600, #354764);
 }
 .Counts_Header h2 {
   padding: 60px 60px;
   display: flex;
-width: 363px;
-text-align:left;
-flex-direction: column;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-0, #FFF);
-font-size: 28px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 700;
-line-height: 38px;
+  width: 363px;
+  text-align:left;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--foundation-neutrals-n-0, #FFF);
+  font-size: 28px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
 }
 .Counts_Header h3 {
-
- padding: 80px 0px 0px 0px;
-flex-direction: column;
-flex-shrink: 0;
-color: var(--foundation-neutrals-n-0, #FFF);
-font-size: 50px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 700;
-line-height: 38px;
+  padding: 80px 0px 0px 0px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--foundation-neutrals-n-0, #FFF);
+  font-size: 50px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
 }
 .Counts_Header p {
   color: var(--foundation-neutrals-n-0, #FFF);
-text-align: center;
-font-size: 20px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 700;
-line-height: 64px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
 }
 
 
@@ -541,30 +539,30 @@ line-height: 64px;
   
 }
 .review_header h3 {
-padding: 100px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: #354764;
-text-align: center;
-font-size: 32px;
-font-family: Uber Move;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 1.7px;
+  padding: 100px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #354764;
+  text-align: center;
+  font-size: 32px;
+  font-family: Uber Move;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.7px;
 }
 .testimonials {
   max-width:90% ;
-height: 618px;
-flex-shrink: 0;
-margin: 4rem auto;
-border-radius: 16px;
-background: rgb(255, 255, 255);
-box-shadow: 3px 3px 8px 0px rgba(245, 245, 245, 0.90), -3px -3px 6px 0px rgba(255, 255, 255, 0.90), 3px -3px 6px 0px rgba(245, 245, 245, 0.20), -3px 3px 6px 0px rgba(245, 245, 245, 0.20), -1px -1px 2px 0px rgba(245, 245, 245, 0.50) inset, 1px 1px 2px 0px rgba(255, 255, 255, 0.30) inset;
+  height: 618px;
+  flex-shrink: 0;
+  margin: 4rem auto;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  box-shadow: 3px 3px 8px 0px rgba(245, 245, 245, 0.90), -3px -3px 6px 0px rgba(255, 255, 255, 0.90), 3px -3px 6px 0px rgba(245, 245, 245, 0.20), -3px 3px 6px 0px rgba(245, 245, 245, 0.20), -1px -1px 2px 0px rgba(245, 245, 245, 0.50) inset, 1px 1px 2px 0px rgba(255, 255, 255, 0.30) inset;
 }
 
 .review  h4{
-  display: flex;
+display: flex;
 width: 300px;
 margin-bottom: 3%;
 margin-top: 85%;
@@ -624,7 +622,7 @@ margin-top: 10px;
 [class^="swiper-button"] {
   --swiper-navigation-size: 1.2rem;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 420px;
   padding-top: 99px;
   color: rgba(122, 134, 153, 1)!important;
 }
@@ -753,7 +751,7 @@ margin-bottom: 30px;
 }
 .card {
   width: 300px;
-  margin: 20px;
+  margin: 30px;
   padding: 5px;
 }
 .services {
@@ -899,7 +897,7 @@ margin-top: 5px;
 [class^="swiper-button"] {
   --swiper-navigation-size: 0.5rem;
   position: absolute;
-  margin-left: 155px;
+  margin-left: 285px;
   padding-top: 59px;
   color: rgba(122, 134, 153, 1)!important;
 }
