@@ -19,14 +19,53 @@ body {
   text-align: center;
 
 background-image: url(../assets/Img/Bg.png);
-
+background-repeat: no-repeat;
+background-size: cover;
 backdrop-filter: blur(300px);
 
 backdrop-filter: blur(300px);
 
 }
 
+
 .icon{ margin-left: 10px;margin-top: 10px;}
+
+.span-green {
+color: var(--foundation-secondary-s-300, #88BE46);
+text-align: center;
+font-size: 22px;
+font-family: Uber Move;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.1px;
+}
+.span-greenb {
+  color: var(--foundation-secondary-s-300, #88BE46);
+}
+.span-blue {
+color: var(--foundation-primary-b-300, #3187D7);
+text-align: center;
+font-size: 22px;
+font-family: Uber Move;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.1px;
+}
+.span-blueb {
+  color: var(--foundation-primary-b-300, #3187D7);
+}
+.span-yelow {
+color: var(--foundation-tertiary-t-400, #FCAF55);
+text-align: center;
+font-size: 22px;
+font-family: Uber Move;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.1px;
+}
+.span-yelowb {
+  color: var(--foundation-tertiary-t-400, #FCAF55);
+}
 
 /* Navbar Styles  */
 
@@ -117,42 +156,7 @@ margin-right: 20px ;
   margin: 20px 30px 0 30px;
   color: var(--foundation-neutral-n-0, #FFF);
 }
-.span-green {
-color: var(--foundation-secondary-s-300, #88BE46);
-text-align: center;
-font-size: 22px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
-}
-.span-greenb {
-  color: var(--foundation-secondary-s-300, #88BE46);
-}
-.span-blue {
-color: var(--foundation-primary-b-300, #3187D7);
-text-align: center;
-font-size: 22px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
-}
-.span-blueb {
-  color: var(--foundation-primary-b-300, #3187D7);
-}
-.span-yelow {
-color: var(--foundation-tertiary-t-400, #FCAF55);
-text-align: center;
-font-size: 22px;
-font-family: Uber Move;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.1px;
-}
-.span-yelowb {
-  color: var(--foundation-tertiary-t-400, #FCAF55);
-}
+
 /* Hero styles */
 
 
@@ -710,7 +714,6 @@ flex-shrink: 0;
 
 /* Tablet Media Query */
 @media only screen and (max-device-width: 480px)  {
-
   .logo{
     width: 70px;
     margin-left: 40px;
